@@ -1,0 +1,13 @@
+{
+    "name": "example/saas-app",
+    "description": "Esqueleto modular para uma plataforma SaaS multi-tenant usando CodeIgniter 4",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\": "Modules/"
+        }
+    }
+}
